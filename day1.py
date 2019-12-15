@@ -14,6 +14,10 @@ def fuel_calc(mass):
         pass
     else:
         mass = (mass // 3 - 2 )
+<<<<<<< HEAD
+=======
+        print(mass)
+>>>>>>> 2d2e0ca... Initial Commit
         if mass > 0:
             new_list.append(mass)
         return fuel_calc(mass)
