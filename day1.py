@@ -14,7 +14,6 @@ def fuel_calc(mass):
         pass
     else:
         mass = (mass // 3 - 2 )
-        print(mass)
         if mass > 0:
             new_list.append(mass)
         return fuel_calc(mass)
